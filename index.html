@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&family=Secular+One&display=swap" rel="stylesheet">
     <title>One Piece</title>
 </head>
+
 <body>
 
     <main>
         <section class="personagens">
-            <div id="personagem">
+            <div class="personagem">
                 <img src="src/imagens/personagem-tony-chopper.png" alt="Imagem do personagem Chopper" class="personagem">
                 <div id="conteudo">
                     <i class="img-logo"></i>
@@ -18,7 +24,7 @@
                     <p class="descricao-personagem">Esta pequena rena ganhou a habilidade de mudar sua forma e de pensar como humanos após comer a fruta Hito Hito no Mi. Chopper é um valioso membro da tripulação dos Piratas do Chapéu de Palha, atuando como médico da tripulação.</p>
                 </div>
             </div>
-            <div id="personagem">
+            <div class="personagem">
                 <img src="src/imagens/personagem-roronoa-zoro.png" alt="Imagem do personagem Zoro" class="personagem">
                 <div id="conteudo">
                     <i class="img-logo"></i>
@@ -26,7 +32,7 @@
                     <p class="descricao-personagem">Primeiro pirata (segundo membro se contarmos com Luffy) a se juntar à tripulação de Piratas do Chapéu de Palha, Zoro aceitou o convite de Luffy após o capitão salvar sua vida.</p>
                 </div>
             </div>
-            <div id="personagem">
+            <div class="personagem selecionado">
                 <img src="src/imagens/personagem-monkey-d-luffy.png" alt="Imagem do personagem Luffy" class="personagem">
                 <div id="conteudo">
                     <i class="img-logo"></i>
@@ -34,7 +40,7 @@
                     <p class="descricao-personagem">Luffy do Chapéu de Palha", como ficou conhecido, é o protagonista do anime, e o fundador e capitão da tripulação Piratas do Chapéu de Palha. Desde muito jovem, tem como seu maior sonho um dia encontrar o lendário tesouro de Gol D. Roger, para se tornar o novo Rei dos Piratas.</p>
                 </div>
             </div>
-            <div id="personagem">
+            <div class="personagem">
                 <img src="src/imagens/personagem-nami.png" alt="Imagem do personagem Nami" class="personagem">
                 <div id="conteudo">
                     <i class="img-logo"></i>
@@ -42,7 +48,7 @@
                     <p class="descricao-personagem">Uma órfã de guerra, ainda criança Nami foi adotada por Bell-mère, uma mulher da Marinha. Enquanto crescia ao lado de sua irmã adotiva Nojiko, Nami já demonstrava sua paixão por desenhar mapas, sonhando em um dia fazer o mapa de todo o mundo.</p>
                 </div>
             </div>
-            <div id="personagem">
+            <div class="personagem">
                 <img src="src/imagens/personagem-sanji.png" alt="Imagem do personagem Sanji" class="personagem">
                 <div id="conteudo">
                     <i class="img-logo"></i>
@@ -53,15 +59,36 @@
         </section>
 
         <ul class="lista-botoes">
-            <li><img src="src/imagens/tripulacao-chopper.png" alt="Imagem bandeira do personagem Chopper"></li>
-            <li><img src="src/imagens/tripulacao-zoro.png" alt="Imagem bandeira do personagem Zoro"></li>
-            <li><img src="src/imagens/tripulacao-luffy.png" alt="Imagem bandeira do personagem Luffy"></li>
-            <li><img src="src/imagens/tripulacao-nami.png" alt="Imagem bandeira do personagem Nami"></li>
-            <li><img src="src/imagens/tripulacao-sanji.png" alt="Imagem bandeira do personagem Sanji"></li>
+            <li>
+                <button class="botao">
+                    <img src="src/imagens/tripulacao-chopper.png" alt="Imagem bandeira do personagem Chopper">
+                </button>
+            </li>
+            <li>
+                <button class="botao">
+                    <img src="src/imagens/tripulacao-zoro.png" alt="Imagem bandeira do personagem Zoro">
+                </button>
+            </li>
+            <li>
+                <button class="botao selecionado">
+                    <img src="src/imagens/tripulacao-luffy.png" alt="Imagem bandeira do personagem Luffy">
+                </button>
+            </li>
+            <li>
+                <button class="botao">
+                    <img src="src/imagens/tripulacao-nami.png" alt="Imagem bandeira do personagem Nami">
+                </button>
+            </li>
+            <li>
+                <button class="botao">
+                    <img src="src/imagens/tripulacao-sanji.png" alt="Imagem bandeira do personagem Sanji">
+                </button>
+            </li>
         </ul>
-        
+
     </main>
 
 
 </body>
+
 </html>
