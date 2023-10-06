@@ -28,6 +28,8 @@ section .img-personagem {
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    transition-duration: 0.5s;
 }
 
 .conteudo {
@@ -42,6 +44,8 @@ section .img-personagem {
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    transition-duration: 0.5s;
 }
 
 .conteudo .nome-personagem {
@@ -83,6 +87,8 @@ section .img-personagem {
     top: 0;
     right: 0;
     z-index: 2;
+
+    transition-duration: 0.5s;
 }
 
 .lista-botoes .botao {
@@ -99,4 +105,6 @@ section .img-personagem {
 .lista-botoes .botao.selecionado {
     transform: scale(1.2);
     box-shadow: 0 0 10px #d9d9d9;
+
+    transition-duration: 0.5s;
 }
