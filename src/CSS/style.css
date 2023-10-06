@@ -1,5 +1,6 @@
 body {
     background-color: black;
+    overflow-y: hidden;
 }
 
 main::after {
@@ -64,4 +65,38 @@ section .img-personagem {
 
     background-image: url("../imagens/one-piece-logo.png");
     background-size: cover;
+}
+
+.lista-botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    background-color: rgba(0, 0, 0, 0.3);
+
+    min-height: 100vh;
+    width: 20vw;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.lista-botoes .botao {
+    background: none;
+    height: 86px;
+
+    border: none;
+    border-radius: 50%;
+
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.lista-botoes .botao.selecionado {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px #d9d9d9;
 }
