@@ -100,6 +100,8 @@ section .img-personagem {
 
     cursor: pointer;
     overflow: hidden;
+
+    user-select: none;
 }
 
 .lista-botoes .botao.selecionado {
